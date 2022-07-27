@@ -28,6 +28,11 @@ li {
     font-size: 48px;
 }
 
+.left-side h1 {
+    padding: 48px 0px 0px 0px;
+    margin: 0px;
+}
+
 .left-side div {
     color: #E5E7EB;
 }
@@ -47,6 +52,7 @@ li {
 .header .container {
     display: flex;
     flex-direction: column;
+    margin: 0px 100px 75px 100px;
 }
 
 .navigation {
@@ -60,17 +66,27 @@ li {
 }
 
 .main .right-side {
-    display: flex;
-    padding: 48px;
-    margin: 48px 0px 48px 48px;
+    padding: 0px 275px;
     background-color: gray;
-    width: 320px;
-    height: auto;
     color: #F9FAF8;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
+.main .right-side div {
+    /*padding: 0px 0px 64px 100px;*/
+    display: flex;
+}
 
+.main .left-side {
+    margin: 0px 80px 0px 0px;
+}
 
 .main {
     display: flex;
@@ -88,7 +104,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 24px 48px 100px 48px;
-    
+    margin: 0px 75px;
 }
 
 .boxes {
@@ -105,7 +121,7 @@ li {
     display: flex;
     background-color: #E5E7EB;
     align-content: center;
-    padding: 0px 150px;
+    padding: 0px 300px;
 }
 
 .quote .container {
@@ -116,23 +132,53 @@ li {
     padding: 48px;
 }
 
+.quote .container div {
+    font-weight: bold;
+}
+
 .quote h1 {
     font-size: 36px; 
     font-style: italic;
     color: #1f2937;
+    font-weight: normal;
 }
 
+.left-side h3 {
+    padding: 0px;
+    margin: 0px;
+}
 
 .boxone,
 .boxtwo,
 .boxthree,
 .boxfour {
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
-    padding: 16px;
+    padding: 0px 16px;
+}
+
+.boxone img {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.boxtwo img {
+    max-width: 75%;
+    max-height: 75%
+}
+
+.boxthree img {
+    max-width: 75%;
+    max-height: 75%
+}
+
+.boxfour img {
+    max-width: 75%;
+    max-height: 75%
 }
 
 .footer {
@@ -155,18 +201,28 @@ li {
     color: #F9FAF8;
     border-color: #F9FAF8;
     border-radius: 8px;
+    font-weight: bold;
 }
 
-
+.left-side button {
+    padding: 6px 28px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #3882F6;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
 
 .call-to-action .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    padding: 24px;
+    padding: 48px 24px;
     width: 500px;
     margin: 75px 200px;
+    border-radius: 8px;
 }
 
 .call-to-action div {
