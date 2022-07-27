@@ -40,7 +40,7 @@ li {
 .header {
     background-color: #1f2937;
     display: flex;
-    padding: 0px 64px 16px 64px;
+    padding: 0px 64px 32px 64px;
     margin: 0;
 }
 
